@@ -1,15 +1,12 @@
-import time
-import random
+def generate_password():
+    print("password")
+    print("password")
+  
+def password():
+    p = "128132"
+    if p == "128132":
+        return p
+    else:
+        return None
 
-refreshing = True
-refresh_timer=''
-
-while True:
-    time.sleep(5)
-    password = random.randint(00000, 99999,)
     
-
-
-
-
-
