@@ -1,16 +1,16 @@
-import time
+
 import random
+import time
+currentotp = None
+stopgenerating = False
 
-refreshing = True
-refresh_timer=''
+def generateotp():
+    global currentotp, stopgenerating
+    while not stopgenerating:
+        currentotp = random.randint(100000, 999999)               #generates the OTP's
+        print(f"Current Password: {currentotp}")
+        time.sleep(30)
 
-while True:
-    time.sleep(30)
-    password = random.randint(00000, 99999,)
-    
-
-
-
-
-
+        
+generateotp()
 
