@@ -8,3 +8,8 @@ def password():
         return p
     else:
         return None
+    
+def dummy_function():
+    pass
+
+    #this is a comment
