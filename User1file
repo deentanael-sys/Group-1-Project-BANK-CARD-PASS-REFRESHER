@@ -5,9 +5,10 @@ refreshing = True
 refresh_timer=''
 
 while True:
-    time.sleep(5)
+    time.sleep(30)
     password = random.randint(00000, 99999,)
     
+
 
 
 
