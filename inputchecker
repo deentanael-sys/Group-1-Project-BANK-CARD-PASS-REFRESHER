@@ -1,0 +1,16 @@
+from password import generateotp()
+
+stopgenerating = False
+def inputchecker():
+    global currentotp, stopgenerating
+    while not stopgenerating:
+        userinput = input("Enter Password: ")                  #checks if the user input matches the given OTP's
+        if userinput == str(currentotp):
+            stopgenerating = True
+            print("Accessed")
+            break
+        elif userinput != str(currentotp):
+            stopgenerating = True
+            print("Wrong Password")
+            break
+inputchecker()
